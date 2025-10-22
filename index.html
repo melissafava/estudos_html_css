@@ -9,6 +9,39 @@
 
 <body>
     <h1>Página de Estudos</h1>
+    <form metod="get" action="envio_dados.php">
+        <input type="text" name="nome" placeholder="Digite seu Nome">
+        <input type="e-mail" name="email" placeholder="Digite seu e-mail">
+        <input type="submit" name="enviar" placeholder="Enviar">
+    </form>
+
+    <form>
+        <input type="button" value="Clique Aqui" onclick="msg()">
+    </form>
+
+    <form>
+        <input type="checkbox" name="veículo1" value="bicicleta">
+        Eu tenho uma bicicleta<br>
+        <input type="checkbox" name="veículo2" value="carro">
+        Eu tenho um carro<br>
+        <input type="checkbox" name="veículo3" value="moto">
+        Eu tenho uma moto
+    </form>
+
+    <form>
+        Selecione sua cor favorita: <input type="color" name="favcolor">
+        value="#0000FF"
+    </form>
+
+    <form>
+        Data de Nascimento: <input type="date" name="nascimento">
+    </form>
+
+    <script>
+        function msg() {
+            alert("Você clicou no botão!")
+        }
+    </script>
 </body>
 
 </html>
