@@ -15,9 +15,11 @@
         <input type="submit" name="enviar" placeholder="Enviar">
     </form>
 
+
     <form>
         <input type="button" value="Clique Aqui" onclick="msg()">
     </form>
+
 
     <form>
         <input type="checkbox" name="veículo1" value="bicicleta">
@@ -28,13 +30,48 @@
         Eu tenho uma moto
     </form>
 
+
     <form>
         Selecione sua cor favorita: <input type="color" name="favcolor">
         value="#0000FF"
     </form>
 
+
     <form>
         Data de Nascimento: <input type="date" name="nascimento">
+    </form>
+
+
+    <form>
+        Data de Nascimento: <input type="datetime-local" name="bdaytime">
+    </form>
+
+    <!-- Para permitir o envio de um arquivo por vez -->
+    <form>
+        <input type="file" name="arquivos">
+    </form>
+    <br><br><br>
+
+    <!-- Para permitir seleção de múltiplos arquivos -->
+    <form>
+        <input type="file" name="arquivos" multiple>
+    </form>
+
+
+    <form>
+        Quantidade (entre 1 e 5): <input type="number" name="qtd" min="1" max="5">
+    </form>
+
+
+    <form>
+        <input type="password" name="senha" placeholder="Digite sua senha">
+    </form>
+
+    <form>
+        <p>Qual sua idade?</p>
+        <input type="radio" name="idade" value="18_22">18 a 22<br>
+        <input type="radio" name="idade" value="23_30">23 a 30<br>
+        <input type="radio" name="idade" value="mais31">acima de 31<br>
     </form>
 
     <script>
