@@ -26,7 +26,7 @@ h1 {
     /* deixa o elemento como referencia p posicionar coisas dentro dele */
     /* permite deslocamentos se precisar */
     position: relative;
-    /* qualque mudança que possa der animada (vai ser feita suavamente) */
+    /* qualquer mudança que possa der animada (vai ser feita suavamente) */
     transition: linear 0.25s;
 }
 
@@ -40,7 +40,7 @@ h1 {
     transform: rotate(-5deg);
 }
 
-.imagem:hover{
+.imagem:hover {
     /* desfaz qualquer rotação e aumenta o zoom em 1.5x o tamanho */
     transform: rotate(0deg) scale(1.5);
 }
